@@ -4,11 +4,9 @@ interface ChuckJokeProps {
 }
 
 const ChuckJoke: React.FC<ChuckJokeProps> = ({id, joke}) => ( 
-    <p>
-        <ul>
+    <p>        
         {/*Id:{id} <br />*/}
-            <li>{joke}</li>
-        </ul>    
+        {joke}            
     </p>
 );
 
